@@ -99,16 +99,12 @@ plot(code2)
 :::
 ::::::
 
-## Intro
+## Slides
 
-[Intro](https://larsvilhuber.github.io/syracuse-seminar-2026-slides/)
+- [Intro](https://larsvilhuber.github.io/syracuse-seminar-2026-slides/)
+- [Draft main part](https://labordynamicsinstitute.github.io/reproducibility-confidential-expanded/)
 
-
-## Main part
-
-[Draft main part](https://labordynamicsinstitute.github.io/reproducibility-confidential-expanded/)
-
-### Results from Survey 
+## Results 
 
 *Last updated: `r format(Sys.time(), "%d %B %Y, %H:%M")`*
 
