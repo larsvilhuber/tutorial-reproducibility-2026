@@ -64,12 +64,6 @@ if (!dir.exists(here::here("data"))) {
 ::: {.panel-tabset}
 
 
-## Survey 1
-
-Please fill out this survey on background and skills, to provide us with information on who you are. It will help us improve the presentation, and make it more relevant for you.
-
-<`r file.path(QUALTRICS_FULL_URL,QUALTRICS_DAY1)`>
-
 ## Follow along
 
 ```{r qrcode}
@@ -79,6 +73,31 @@ code <- qr_code(WEBSITE_URL)
 plot(code)
 
 ```
+
+
+## Survey 1
+
+Please fill out this survey on background and skills, to provide us with information on who you are. It will help us improve the presentation, and make it more relevant for you.
+
+:::::: {.columns}
+::: {.column}
+
+<`r file.path(QUALTRICS_FULL_URL,QUALTRICS_DAY1)`>
+
+:::
+::: {.column}
+
+```{r qrcode2}
+#| echo: false
+
+code2 <- qr_code(file.path(QUALTRICS_FULL_URL,QUALTRICS_DAY1))
+plot(code2)
+
+```
+
+
+:::
+::::::
 
 ## Intro
 
