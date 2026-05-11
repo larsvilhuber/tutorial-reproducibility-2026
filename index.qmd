@@ -54,7 +54,7 @@ QUALTRICS_DAY2 <- "SV_cNkhKL69K2Ob7o2"
 
 QUALTRICS_DAY1_STIME <- ymd_hms("2025-01-01 23:59:00")
 QUALTRICS_DAY2_STIME <- ymd_hms("2025-01-01 21:59:00")
-QUALTRICS_DAY2_ETIME <- ymd_hms("2026-03-19 23:59:00")
+QUALTRICS_DAY2_ETIME <- ymd_hms("2026-06-30 23:59:00")
 
 if (!dir.exists(here::here("data"))) {
   dir.create(here::here("data"))
